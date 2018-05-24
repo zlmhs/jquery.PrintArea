@@ -1,0 +1,47 @@
+.con{
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid #ededed;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+.con>div{
+    width: 33%;
+    height: 200px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+}
+.left{
+    background: pink;
+}
+.center{
+    background: green;
+}
+.right{
+    background: blue;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.img{
+    width: 100vw;
+    height: 200px;
+    object-fit: cover;
+}
+.btn,.btn2{
+    border: 1px solid #0080CC;
+    border-radius: 2px;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    color: #0080CC;
+    cursor: pointer;
+}
